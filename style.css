@@ -42,6 +42,7 @@
 
 .signup {
   background-color: #3882f6;
+  color: #F9FAF8;
   width: 110px;
   padding: 10px;
   border-radius: 8px;
@@ -64,6 +65,46 @@
   margin-left: 300px;
   padding-bottom: 100px;
 }
+
+/* Information Section */
+
+section.information {
+  margin-right: 300px;
+  margin-left: 300px;
+  height: 250px
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.info-container > .info {
+  max-width: 200px;
+}
+
+.info > p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.info > img {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+}
+
+.info-title {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+}
+
 
 
 
