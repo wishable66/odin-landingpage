@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+.h-container {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+
+}
+.header-links {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.logo {
+  color: #F9FAf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup {
+  background-color: #3882f6;
+  width: 110px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-left > *{
+  margin-top: 10px;
+}
+
+/* Header and Hero */
+.hero-sub, .header-links a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.header, .hero {
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
