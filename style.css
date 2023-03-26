@@ -177,6 +177,19 @@ div.quote {
 }
 
 
+/* Footer */
+
+footer {
+  background-color: #1F2937;
+}
+
+.f-text {
+  text-align: center;
+  padding: 25px;
+  color: #F9FAF8;
+}
+
+
 
 
 
