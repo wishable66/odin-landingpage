@@ -134,6 +134,48 @@ div.quote {
   font-weight: 500;
 }
 
+/* CTA */
+
+.cta-container {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  gap: 150px;
+  padding: 60px 120px;
+  border-radius: 10px;
+}
+
+.cta-signup {
+  background-color: #3882f6;
+  border: none;
+  color: #F9FAF8;
+  border: 3px solid #F9FAF8;
+  border-radius: 8px;
+  min-width: 115px;
+  min-height: 40px;
+  align-self: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cta-main {
+  color:#F9FAF8;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 8px;
+}
+
+.cta-sub {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
 
 
 
